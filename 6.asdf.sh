@@ -10,6 +10,7 @@ asdf plugin add php
 asdf plugin add nodejs
 asdf plugin add golang
 asdf plugin add ruby
+asdf plugin add deno
 
 asdf plugin update --all
 
@@ -23,8 +24,10 @@ asdf install nodejs 12.18.4
 asdf install nodejs 14.11.0
 asdf install golang 1.15.2
 asdf install ruby 2.7.1
+asdf install deno 1.4.1
 
 asdf global php 7.4.0
 asdf global nodejs 14.11.0
 asdf global golang 1.15.2
 asdf global ruby 2.7.1
+asdf global deno 1.4.1
